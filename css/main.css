@@ -161,6 +161,15 @@ code {
     }
 }
 
+.colour {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.colour:hover {
+    background-color: var(--background-light) !important;
+}
+
 .img-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
