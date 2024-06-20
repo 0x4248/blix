@@ -161,6 +161,10 @@ code {
     }
 }
 
+.pixelate {
+    image-rendering: pixelated;
+}
+
 .colour {
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -183,6 +187,12 @@ code {
     height: auto;
     width: 100%;
     border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+.img-gallery img:hover {
+    transform: scale(1.1);
+
 }
 
 .colour-circle {
